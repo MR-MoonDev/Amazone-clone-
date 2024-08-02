@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    background:  #0f1111;;
+    color: antiquewhite;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_search:hover{
+    border: 3px solid peru;
+}
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("./images/Amazon-Logo-Font-1-scaled.webp");
+    background-size:10% 100%;
+    background-repeat:no-repeat;
+    height: 50px;
+    width: 1000%;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid antiquewhite;
+}
+
+.address_first{
+   color: #cccc;
+   font-size: 0.85rem;
+   margin-left: 15px;
+}
+
+.address_second{
+   font-size: 1rem;
+   margin-left: 5px;
+}
+
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color:peru;
+    border-radius: 4px;
+}
+
+.search_select{
+    text-align: center;
+    width: 70px;
+    border: none;
+    background-color:darkgrey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search_input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search_icone{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0f1111  ;
+
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+.nav_second{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.nav_cart i{
+font-size: 30px;
+ 
+}
+
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: antiquewhite;
+}
+
+.pannel_opt p{
+    display:inline;
+    margin-left: 30px;
+}
+
+.pannel_opt{
+    width: 70%;
+
+}
+
+.pannel_deal{
+    font-size: 0.86rem;
+    font-weight: 700;
+}
+
+.shopingphoto{
+    background-image: url("./images/1650384171239.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.shopingheading{
+    background-color:white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 90%;
+}
+.shopingheading a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 0.85rem;
+    font-size: 0.85rem;
+}
+
+
+.Shope{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:antiquewhite;
+}
+
+.box{
+    height: 100px;
+    width: 23%;
+    height: 400px;
+    background-color:white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.boximage{
+    height: 350px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+
+}
+
+.boxcontent{
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+
+.boxcontent p{
+    color: cadetblue;
+}
